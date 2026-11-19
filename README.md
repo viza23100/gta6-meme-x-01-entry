@@ -39,6 +39,19 @@ The meme is posted on X from a public account with this text:
 The post must stay up and the account public until the results are out
 (due 8 Dec 2026). Posting window: 19 Nov 21:00 WIB – 23 Nov 21:00 WIB.
 
+## Cara posting di X
+
+1. Buka X dari akun publik, buat post baru, dan lampirkan `meme.png` sebagai
+   gambar pertama (gambar inilah yang dibaca juri bersama teksnya).
+2. Tempel teks final di atas apa adanya — jangan ubah play code
+   `makefun-nebula-ice-ferret`, jangan hapus `@makefunai`, dan jangan tambah
+   link lain, supaya bukti make.fun-nya tetap utuh.
+3. Setelah terposting, salin URL postingan dari X (bentuk
+   `https://x.com/<handle>/status/<id>`), lalu ganti isi `POST.json` dengan
+   URL asli itu — jangan submit selagi masih placeholder.
+4. Cek lagi: akun tetap publik, postingan tidak dihapus, dan `POST.json` sudah
+   berisi URL yang benar sebelum submit. Hasil diumumkan 8 Des 2026.
+
 ## The entry
 
 `POST.json` holds the post's address:
